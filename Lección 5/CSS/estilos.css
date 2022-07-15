@@ -1,0 +1,40 @@
+table{
+    width: 100%;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    /*border-spacing: 5px;*/
+    padding: 10px;
+}
+
+caption{
+    color: rgb(6, 68, 122);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    line-height: 100px;
+
+}
+
+th{
+    color: azure;
+    background-color: blue;
+}
+
+tr:nth-child(even){
+    background-color: #364f7c;
+}
+
+tr:nth-child(odd){
+    background-color: #00ffff;
+}
+
+/*
+td{
+    text-align: center;
+}
+
+th{
+    text-align: center;
+}*/

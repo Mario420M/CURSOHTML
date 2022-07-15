@@ -1,0 +1,12 @@
+h1{
+    color: rgb(72, 155, 127);
+}
+
+p{
+    color: white;
+    background-color: crimson;
+    padding: 40px 45px 40px;
+    border: 10px solid coral;
+    margin: auto 50px;
+    text-align: center;
+}

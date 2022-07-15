@@ -1,0 +1,51 @@
+h1{
+    color: blueviolet;
+}
+
+/*
+ul{
+    list-style-type: lower-latin;
+}*/
+
+ul{
+    list-style-type: none;
+    background-color: #457b9d;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color:azure; 
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #1d3557;
+}
+
+/*Este codifo de CSS es para darle formato a las listas ordenadas*/
+ol{
+    list-style: none;
+    counter-reset: contador;
+}
+
+ol li{
+    counter-increment: contador;
+}
+
+ol li::before{
+    content: 'Alumno ' counter(contador) ') ';
+    color: #1efe10;
+}
+
+ol li::after{
+    content: '.';
+}

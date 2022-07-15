@@ -1,0 +1,13 @@
+body{
+    background-color: aqua;
+}
+
+h1{
+    color: blue;
+}
+
+div{
+    border: 10px solid crimson;
+    background-color: #f1faee;
+    text-align: center;
+}
